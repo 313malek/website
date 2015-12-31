@@ -231,45 +231,8 @@ html{
     transition-duration: 2s;
 }
 
-@media (min-width: 768px){
-    .navbar-nav{
-        float:none;
-        margin:  auto;
-        display: table;
-        table-layout: fixed;
-    }
-    
-
-}
-
-@media (max-width: 768px){ 
-    html{
-         background-position: 50% -18%;
-    }
-    
-    .bottom {
-        height: 38%;
-    }
-}
-
-@media (max-width: 468px){ 
-    html{
-         background-position: 50% -60%;
-    }
-    
-    .bottom {
-        height: 45%;
-    }
-}
-
-
-
-
-
-
-
 #header {
-    position: absolute;
+   position: absolute;
     margin-left: 25%;
     margin-top: 3%;
     color: whitesmoke;
@@ -286,8 +249,56 @@ html{
     margin-top: 3%;
     font-variant-caps: small-caps;
     font-size: 1em;
-    width: 40%;
+    width: 25%;
     height: 65%;
     letter-spacing: .05em;
     font-family: Garamond;
 }
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin:  auto;
+        display: table;
+        table-layout: fixed;
+    }
+
+}
+
+@media (max-width: 768px){ 
+    html{
+         background-position: 50% -18%;
+    }
+    
+    .bottom {
+        height: 38%;
+    }
+    
+   
+}
+
+@media (max-width: 468px){ 
+    html{
+         background-position: 50% -60%;
+    }
+    
+    .bottom {
+        height: 45%;
+    }
+    
+     #header {
+        margin-left: 42%;
+        margin-top: 5%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

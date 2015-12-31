@@ -1,6 +1,52 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+@font-face {
+  font-family: Neusa;
+  src: url(fonts/Neusa-Light.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Neusa;
+  src: url(fonts/Neusa-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Neusa;
+  src: url(fonts/Neusa-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Neusa;
+  src: url(fonts/Neusa-SemiBold.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Neusa;
+  src: url(fonts/Neusa-Bold.otf);
+  font-weight: 700;
+}
+
+body{
+    font-family: Neusa;
+}
+
+html{
+    background: #000 url("dionV.jpg") no-repeat ;
+    background-size: cover;
+    background-position: 50% 0%;
+    transition: background-position;
+    transition-duration: 2s;
+    font-family: Nuesa;
 }
 
 .parallax {
@@ -71,7 +117,7 @@
 
 
 #group1 .parallax__layer--base {
-    background-image: url("dionV2.jpg");
+    background-image: url("dionV.jpg");
     background-size: cover;
 }
 
@@ -113,66 +159,135 @@
 }
 
 .navbar-nav {
-    font-size: 2em;
-    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    font-family: Nuesa, Helvetica Neue, 'Cinzel', serif;
     text-align: center;
+    
+    
 }
 
 
-
-.intro_text {
-    position: absolute;
-    left: 20%;
-    top: 30%;
-    text-align: center;
-}
 
 .navbar {
     margin-bottom: 0;
 }
 
-#nameline {
-    font-size: 3em;
-    color: whitesmoke;
-    text-shadow: 2px 2px dimgrey;
+
+
+
+#go-hacker {
+    color: ghostwhite;
+    opacity: .85;
+    transition-duration: .3s;
+    transition-delay: .2s; 
 }
 
-#hhh {
-    font-size: 2em;
-}
-
-#main_overlay {
-    background-color:#000;
-    opacity:0.0;
-    position:absolute;
-    top:0;
-    width:100%;
-    height:100%;
-}
-}
-
-
-
-#email {
-    color: white;
-    font-kerning: auto;
-}
-
-.contact {
-    text-align: center;
-    position: absolute;
-    right: 0%;
-    top: 4vh;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 2.5em;
-    transition: color .25s .25s;
-    color: white;
-    opacity: .5;
-}
-
-.contact:hover{
+#go-hacker:hover{
     opacity: 1;
+    color: white;
 }
 
 
+#go-hipster {
+    color: darkgrey;
+    opacity: .9;
+    transition-duration: .3s;
+    transition-delay: .2s;
+}
+
+#go-hipster:hover{
+    opacity: 1;
+    color: white;
+}
+
+#go-hustler {
+    color:whitesmoke;
+    opacity: .8;
+    transition-duration: .3s;
+    transition-delay: .2s;
+}
+
+#go-hustler:hover{
+    opacity: 1;
+    color: white;
+}
+
+.center {
+    margin: auto;
+ 
+   
+}
+
+.bottom {
+    position:absolute;
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    margin: 0px;
+    border: 0px;
+    opacity: .80;
+    transition-property: height;
+    transition-duration: 2s;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin:  auto;
+        display: table;
+        table-layout: fixed;
+    }
+    
+
+}
+
+@media (max-width: 768px){ 
+    html{
+         background-position: 50% -18%;
+    }
+    
+    .bottom {
+        height: 38%;
+    }
+}
+
+@media (max-width: 468px){ 
+    html{
+         background-position: 50% -60%;
+    }
+    
+    .bottom {
+        height: 45%;
+    }
+}
+
+
+
+
+
+
+
+#header {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 3%;
+    color: whitesmoke;
+    font-variant-caps: small-caps;
+    font-family: Neusa, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+}
+
+#content-div {
+    color: #d3d3d3;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 3%;
+    font-variant-caps: small-caps;
+    font-size: 1em;
+    width: 40%;
+    height: 65%;
+    letter-spacing: .05em;
+    font-family: Garamond;
+}

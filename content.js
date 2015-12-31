@@ -1,21 +1,21 @@
 var content_db = 
 {
     "ABOUT": {
-        "content": "Dion Low grew up in Valparaiso, Indiana where in 2012, he graduated Valparaiso High School(VHS) with an IB Diploma at the top of his class. Currently he is finishing his undergraduate degree in Computer Science (6-3) at Massachusetts Institute of Technology. He is an All-American Swimmer.",
+        "content": "Dion Low grew up in Valparaiso, Indiana where in 2012, he graduated Valparaiso High School (VHS) with an IB Diploma at the top of his class. Currently he is finishing his undergraduate degree in Computer Science (6-3) at Massachusetts Institute of Technology (MIT). He is an All-American Swimmer, has trained at the Olympic Training Center (Colorado),  and his career best US national rank is 7th.",
         
     },
     
     "HACKER":{
-        "content": "I am working on an iOS app in the transportation industry with a non-technical partner.",
+        "content": "I am working on an iOS app in the transportation industry with a non-technical partner. My last internship was in cyber security.",
         "skills" : "Python, Java, UNIX, SQL, Node.js, Splunk, C#, Emacs, GitHub"
     },
     
     "HIPSTER":{
-        "content": "I am prototyping websites for personal use, the Korean Student Association, and Phi Beta Epsilon (pbe.mit.edu).  "
+        "content": "I am prototyping websites for personal use, the Korean Student Association, and Phi Beta Epsilon (pbe.mit.edu). My camera of choice is the DSLR 7100 35mm."
     },
     
     "HUSTLER":{
-        "content": "I am leading two clubs: MIT Poker Club (Co-Founder, President) and MIT Korean Student Association (President)"
+        "content": "I am leading two clubs: MIT Poker Club (Co-Founder, President) and MIT Korean Student Association (President). I enjoy reading books about productivity hacking, entreprenuership, and management."
     }
     
 };

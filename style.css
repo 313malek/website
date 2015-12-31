@@ -226,14 +226,14 @@ html{
     bottom: 0;
     margin: 0px;
     border: 0px;
-    opacity: .80;
+    opacity: .95;
     transition-property: height;
     transition-duration: 2s;
 }
 
 #header {
    position: absolute;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 3%;
     color: whitesmoke;
     font-variant-caps: small-caps;
@@ -253,7 +253,60 @@ html{
     height: 65%;
     letter-spacing: .05em;
     font-family: Garamond;
+    max-height: 10em;
+    overflow-y: scroll;
 }
+
+
+#more-div {
+    position: absolute;
+    margin-left: 78%;
+    margin-top: 3%;
+    color: whitesmoke;
+    font-family: Neusa, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    height: 60%;
+    align-content: center;
+    
+    
+}
+
+#downloadCV {
+    opacity: .8;  
+    display: inline-block;
+}
+
+#downloadCV:hover {
+    opacity: 1;
+}
+
+#name {
+    margin: 0;
+    margin-bottom: 5;
+    display: inline-block;
+    
+}
+
+.row {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#content-text {
+    display: inline-block;
+}
+
+#go-about {
+    opacity: .8;
+    margin: 0;
+}
+
+#go-about:hover {
+    opacity: 1;
+}
+
 
 @media (min-width: 768px){
     .navbar-nav{
@@ -274,12 +327,22 @@ html{
         height: 38%;
     }
     
+    #header {
+        margin-left: 42%;
+        margin-top: 5%;
+    }
+    
+    #content-div {
+        margin-left: 20%;
+        width: 60%;
+        margin-top: 15%;
+    }
    
 }
 
-@media (max-width: 468px){ 
+@media (max-width: 500px){ 
     html{
-         background-position: 50% -60%;
+         background-position: 50% -40%;
     }
     
     .bottom {
@@ -291,7 +354,38 @@ html{
         margin-top: 5%;
     }
     
+    #content-div {
+        margin-left: 10%;
+        width: 80%;
+        margin-top: 15%;
+        
+        
+    }
+    
+    #more-div {
+    position: absolute;
+    right: 20%;
+    bottom: 5vh;
+    color: whitesmoke;
+    font-family: Neusa, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    height: 10%;
+    width: 80%;
+
+    }
+    
+
+    #downloadCV {
+    position: absolute;
+    bottom: .3vh;
+    right: 9vh;
+    }
 }
+    
+}
+
+
 
 
 

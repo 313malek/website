@@ -1,11 +1,13 @@
 var content_db = 
 {
     "ABOUT": {
-        "content": "Dion Low grew up in Valparaiso, Indiana where in 2012, he graduated Valparaiso High School(VHS) with an IB Diploma at the top of his class. Currently he is finishing his undergraduate degree in Computer Science (6-3) at Massachusetts Institute of Technology. He is an All-American Swimmer."
+        "content": "Dion Low grew up in Valparaiso, Indiana where in 2012, he graduated Valparaiso High School(VHS) with an IB Diploma at the top of his class. Currently he is finishing his undergraduate degree in Computer Science (6-3) at Massachusetts Institute of Technology. He is an All-American Swimmer.",
+        
     },
     
     "HACKER":{
-        "content": "I am working on an IOS app in the transportation industry with a non-technical partner. "
+        "content": "I am working on an iOS app in the transportation industry with a non-technical partner.",
+        "skills" : "Python, Java, UNIX, SQL, Node.js, Splunk, C#, Emacs, GitHub"
     },
     
     "HIPSTER":{
@@ -43,8 +45,6 @@ function getContent(section){
     }
 }
 
-console.log("js file loaded");
-
 function auxClick(string){
     $("#header").fadeOut(function(){
         $(this).text(string).fadeIn();
@@ -55,6 +55,8 @@ function auxClick(string){
     });
     
 };
+
+
 
 $("#go-hacker").click(function(){
     var HACKER = "HACKER";
@@ -69,5 +71,10 @@ $("#go-hipster").click(function(){
 $("#go-hustler").click(function(){
     var HUSTLER = "HUSTLER";
     auxClick(HUSTLER);
+});
+
+$("#go-about").click(function(){
+    var ABOUT = "ABOUT";
+    auxClick(ABOUT);
 });
 

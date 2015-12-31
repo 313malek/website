@@ -185,6 +185,8 @@ html{
 #go-about {
     opacity: .8;
     margin: 0;
+    text-decoration: none;
+    color: white;
 }
 
 #go-about:hover {
@@ -192,7 +194,7 @@ html{
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 0px){
     .navbar-nav{
         float:none;
         margin:  auto;
